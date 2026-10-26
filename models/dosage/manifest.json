@@ -495,7 +495,7 @@
    "solid": false,
    "basis": "derived",
    "source": "United Pharmatek softgel size chart (shape class) + 회사소개서 p11 (fill mg) + L/D measured from brochure photos",
-   "bytes": 29520,
+   "bytes": 29524,
    "camera": {
     "elevationDeg": 70,
     "azimuthDeg": 0,
@@ -892,7 +892,7 @@
     "800mg",
     "900-1000mg"
    ],
-   "bytes": 105908,
+   "bytes": 105892,
    "span_mm": {
     "length": 98.182,
     "width": 9.388,
