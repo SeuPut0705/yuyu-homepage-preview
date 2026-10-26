@@ -1,0 +1,1013 @@
+{
+ "schemaVersion": 1,
+ "units": "m",
+ "up": "Y",
+ "origin": "bbox-centre",
+ "cameraConvention": "azimuth 0 = camera on glTF +Z looking at the centre, positive toward +X; elevation above XZ",
+ "items": [
+  {
+   "slug": "tablet",
+   "sizeId": "400-600mg",
+   "order": 0,
+   "file": "/models/dosage/tablet/400-600mg.glb",
+   "label": {
+    "ko": "400~600mg",
+    "en": "400~600mg",
+    "zh": "400~600mg"
+   },
+   "dims_mm": {
+    "length": 15.221,
+    "width": 6.919,
+    "height": 5.189
+   },
+   "extra_mm": {},
+   "mass_mg": 500.0,
+   "volume_mm3": 416.7,
+   "solid": true,
+   "basis": "derived",
+   "source": "회사소개서 2026-04 p10·p11",
+   "bytes": 28000,
+   "camera": {
+    "elevationDeg": 82,
+    "azimuthDeg": 0,
+    "fillRatio": 0.8
+   }
+  },
+  {
+   "slug": "tablet",
+   "sizeId": "500-800mg",
+   "order": 1,
+   "file": "/models/dosage/tablet/500-800mg.glb",
+   "label": {
+    "ko": "500~800mg",
+    "en": "500~800mg",
+    "zh": "500~800mg"
+   },
+   "dims_mm": {
+    "length": 16.612,
+    "width": 7.551,
+    "height": 5.663
+   },
+   "extra_mm": {},
+   "mass_mg": 650.0,
+   "volume_mm3": 541.7,
+   "solid": true,
+   "basis": "derived",
+   "source": "회사소개서 2026-04 p10·p11",
+   "bytes": 32900,
+   "camera": {
+    "elevationDeg": 82,
+    "azimuthDeg": 0,
+    "fillRatio": 0.8
+   }
+  },
+  {
+   "slug": "tablet",
+   "sizeId": "700-1400mg",
+   "order": 2,
+   "file": "/models/dosage/tablet/700-1400mg.glb",
+   "label": {
+    "ko": "700~1,400mg",
+    "en": "700~1,400mg",
+    "zh": "700~1,400mg"
+   },
+   "dims_mm": {
+    "length": 19.492,
+    "width": 8.86,
+    "height": 6.645
+   },
+   "extra_mm": {},
+   "mass_mg": 1050.0,
+   "volume_mm3": 875.0,
+   "solid": true,
+   "basis": "derived",
+   "source": "회사소개서 2026-04 p10·p11",
+   "bytes": 44128,
+   "camera": {
+    "elevationDeg": 82,
+    "azimuthDeg": 0,
+    "fillRatio": 0.8
+   }
+  },
+  {
+   "slug": "tablet",
+   "sizeId": "800-1500mg",
+   "order": 3,
+   "file": "/models/dosage/tablet/800-1500mg.glb",
+   "label": {
+    "ko": "800~1,500mg",
+    "en": "800~1,500mg",
+    "zh": "800~1,500mg"
+   },
+   "dims_mm": {
+    "length": 20.092,
+    "width": 9.133,
+    "height": 6.849
+   },
+   "extra_mm": {},
+   "mass_mg": 1150.0,
+   "volume_mm3": 958.3,
+   "solid": true,
+   "basis": "derived",
+   "source": "회사소개서 2026-04 p10·p11",
+   "bytes": 46796,
+   "camera": {
+    "elevationDeg": 82,
+    "azimuthDeg": 0,
+    "fillRatio": 0.8
+   }
+  },
+  {
+   "slug": "mini-tablet",
+   "sizeId": "4mm",
+   "order": 0,
+   "file": "/models/dosage/mini-tablet/4mm.glb",
+   "label": {
+    "ko": "Ø4mm",
+    "en": "Ø4 mm",
+    "zh": "Ø4mm"
+   },
+   "dims_mm": {
+    "length": 4.0,
+    "width": 4.0,
+    "height": 2.2
+   },
+   "extra_mm": {},
+   "mass_mg": null,
+   "volume_mm3": null,
+   "solid": true,
+   "basis": "customer",
+   "source": "회사소개서 p10·p20 (Ø4 mm)",
+   "bytes": 14408,
+   "camera": {
+    "elevationDeg": 82,
+    "azimuthDeg": 0,
+    "fillRatio": 0.7
+   }
+  },
+  {
+   "slug": "chewable",
+   "sizeId": "round",
+   "order": 0,
+   "file": "/models/dosage/chewable/round.glb",
+   "label": {
+    "ko": "원형",
+    "en": "Round",
+    "zh": "圆形"
+   },
+   "dims_mm": {
+    "length": 16.705,
+    "width": 16.705,
+    "height": 5.22
+   },
+   "extra_mm": {},
+   "mass_mg": 1200.0,
+   "volume_mm3": 1000.0,
+   "solid": true,
+   "basis": "derived",
+   "source": "회사소개서 2026-04 p10·p11",
+   "bytes": 18580,
+   "camera": {
+    "elevationDeg": 84,
+    "azimuthDeg": 0,
+    "fillRatio": 0.85
+   }
+  },
+  {
+   "slug": "chewable",
+   "sizeId": "dog",
+   "order": 1,
+   "file": "/models/dosage/chewable/dog.glb",
+   "label": {
+    "ko": "강아지",
+    "en": "Dog",
+    "zh": "小狗"
+   },
+   "dims_mm": {
+    "length": 21.978,
+    "width": 14.917,
+    "height": 4.396
+   },
+   "extra_mm": {},
+   "mass_mg": 1100,
+   "volume_mm3": 916.7,
+   "solid": true,
+   "basis": "derived",
+   "source": "회사소개서 2026-04 p10·p11",
+   "bytes": 140772,
+   "camera": {
+    "elevationDeg": 84,
+    "azimuthDeg": 0,
+    "fillRatio": 0.85
+   }
+  },
+  {
+   "slug": "chewable",
+   "sizeId": "rabbit",
+   "order": 2,
+   "file": "/models/dosage/chewable/rabbit.glb",
+   "label": {
+    "ko": "토끼",
+    "en": "Rabbit",
+    "zh": "兔子"
+   },
+   "dims_mm": {
+    "length": 21.637,
+    "width": 15.73,
+    "height": 4.327
+   },
+   "extra_mm": {},
+   "mass_mg": 1100,
+   "volume_mm3": 916.7,
+   "solid": true,
+   "basis": "derived",
+   "source": "회사소개서 2026-04 p10·p11",
+   "bytes": 140808,
+   "camera": {
+    "elevationDeg": 84,
+    "azimuthDeg": 0,
+    "fillRatio": 0.85
+   }
+  },
+  {
+   "slug": "chewable",
+   "sizeId": "cat",
+   "order": 3,
+   "file": "/models/dosage/chewable/cat.glb",
+   "label": {
+    "ko": "고양이",
+    "en": "Cat",
+    "zh": "猫咪"
+   },
+   "dims_mm": {
+    "length": 17.309,
+    "width": 19.454,
+    "height": 3.891
+   },
+   "extra_mm": {},
+   "mass_mg": 1100,
+   "volume_mm3": 916.7,
+   "solid": true,
+   "basis": "derived",
+   "source": "회사소개서 2026-04 p10·p11",
+   "bytes": 142104,
+   "camera": {
+    "elevationDeg": 84,
+    "azimuthDeg": 0,
+    "fillRatio": 0.85
+   }
+  },
+  {
+   "slug": "chewable",
+   "sizeId": "bear",
+   "order": 4,
+   "file": "/models/dosage/chewable/bear.glb",
+   "label": {
+    "ko": "곰",
+    "en": "Bear",
+    "zh": "小熊"
+   },
+   "dims_mm": {
+    "length": 18.829,
+    "width": 18.634,
+    "height": 3.766
+   },
+   "extra_mm": {},
+   "mass_mg": 1100,
+   "volume_mm3": 916.7,
+   "solid": true,
+   "basis": "derived",
+   "source": "회사소개서 2026-04 p10·p11",
+   "bytes": 142608,
+   "camera": {
+    "elevationDeg": 84,
+    "azimuthDeg": 0,
+    "fillRatio": 0.85
+   }
+  },
+  {
+   "slug": "hard-capsule",
+   "sizeId": "no1",
+   "order": 0,
+   "file": "/models/dosage/hard-capsule/no1.glb",
+   "label": {
+    "ko": "No.1",
+    "en": "No.1",
+    "zh": "No.1"
+   },
+   "dims_mm": {
+    "length": 19.4,
+    "width": 6.91,
+    "height": 6.91
+   },
+   "extra_mm": {
+    "capDiameter": 6.91,
+    "bodyDiameter": 6.63
+   },
+   "mass_mg": null,
+   "volume_mm3": null,
+   "solid": false,
+   "basis": "standard",
+   "source": "Capsugel Coni-Snap, Tablets & Capsules 2016-11 p54 Table 1",
+   "bytes": 18188,
+   "camera": {
+    "elevationDeg": 10,
+    "azimuthDeg": 0,
+    "fillRatio": 0.85
+   }
+  },
+  {
+   "slug": "hard-capsule",
+   "sizeId": "no0",
+   "order": 1,
+   "file": "/models/dosage/hard-capsule/no0.glb",
+   "label": {
+    "ko": "No.0",
+    "en": "No.0",
+    "zh": "No.0"
+   },
+   "dims_mm": {
+    "length": 21.7,
+    "width": 7.64,
+    "height": 7.64
+   },
+   "extra_mm": {
+    "capDiameter": 7.64,
+    "bodyDiameter": 7.34
+   },
+   "mass_mg": null,
+   "volume_mm3": null,
+   "solid": false,
+   "basis": "standard",
+   "source": "Capsugel Coni-Snap, Tablets & Capsules 2016-11 p54 Table 1",
+   "bytes": 67028,
+   "camera": {
+    "elevationDeg": 10,
+    "azimuthDeg": 0,
+    "fillRatio": 0.85
+   }
+  },
+  {
+   "slug": "hard-capsule",
+   "sizeId": "no00",
+   "order": 2,
+   "file": "/models/dosage/hard-capsule/no00.glb",
+   "label": {
+    "ko": "No.00",
+    "en": "No.00",
+    "zh": "No.00"
+   },
+   "dims_mm": {
+    "length": 23.3,
+    "width": 8.53,
+    "height": 8.53
+   },
+   "extra_mm": {
+    "capDiameter": 8.53,
+    "bodyDiameter": 8.18
+   },
+   "mass_mg": null,
+   "volume_mm3": null,
+   "solid": false,
+   "basis": "standard",
+   "source": "Capsugel Coni-Snap, Tablets & Capsules 2016-11 p54 Table 1",
+   "bytes": 42888,
+   "camera": {
+    "elevationDeg": 10,
+    "azimuthDeg": 0,
+    "fillRatio": 0.85
+   }
+  },
+  {
+   "slug": "hard-capsule",
+   "sizeId": "enteric",
+   "order": 3,
+   "file": "/models/dosage/hard-capsule/enteric.glb",
+   "label": {
+    "ko": "장용코팅",
+    "en": "Enteric coating",
+    "zh": "肠溶包衣"
+   },
+   "dims_mm": {
+    "length": 23.3,
+    "width": 8.53,
+    "height": 8.53
+   },
+   "extra_mm": {
+    "capDiameter": 8.53,
+    "bodyDiameter": 8.18
+   },
+   "mass_mg": null,
+   "volume_mm3": null,
+   "solid": false,
+   "basis": "standard",
+   "source": "Capsugel Coni-Snap, Tablets & Capsules 2016-11 p54 Table 1; enteric colour/size assumed No.00 from brochure p11",
+   "bytes": 17844,
+   "camera": {
+    "elevationDeg": 10,
+    "azimuthDeg": 0,
+    "fillRatio": 0.85
+   }
+  },
+  {
+   "slug": "softgel",
+   "sizeId": "155mg",
+   "order": 0,
+   "file": "/models/dosage/softgel/155mg.glb",
+   "label": {
+    "ko": "155mg",
+    "en": "155mg",
+    "zh": "155mg"
+   },
+   "dims_mm": {
+    "length": 9.544,
+    "width": 6.866,
+    "height": 6.866
+   },
+   "extra_mm": {
+    "shape": "oval",
+    "shellMm": 0.4
+   },
+   "mass_mg": 155,
+   "volume_mm3": 168.5,
+   "solid": false,
+   "basis": "derived",
+   "source": "United Pharmatek softgel size chart (shape class) + 회사소개서 p11 (fill mg) + L/D measured from brochure photos",
+   "bytes": 29520,
+   "camera": {
+    "elevationDeg": 70,
+    "azimuthDeg": 0,
+    "fillRatio": 0.8
+   }
+  },
+  {
+   "slug": "softgel",
+   "sizeId": "300mg",
+   "order": 1,
+   "file": "/models/dosage/softgel/300mg.glb",
+   "label": {
+    "ko": "300mg",
+    "en": "300mg",
+    "zh": "300mg"
+   },
+   "dims_mm": {
+    "length": 12.423,
+    "width": 8.12,
+    "height": 8.12
+   },
+   "extra_mm": {
+    "shape": "oval",
+    "shellMm": 0.4
+   },
+   "mass_mg": 300,
+   "volume_mm3": 326.1,
+   "solid": false,
+   "basis": "derived",
+   "source": "United Pharmatek softgel size chart (shape class) + 회사소개서 p11 (fill mg) + L/D measured from brochure photos",
+   "bytes": 29524,
+   "camera": {
+    "elevationDeg": 70,
+    "azimuthDeg": 0,
+    "fillRatio": 0.8
+   }
+  },
+  {
+   "slug": "softgel",
+   "sizeId": "500mg",
+   "order": 2,
+   "file": "/models/dosage/softgel/500mg.glb",
+   "label": {
+    "ko": "500mg",
+    "en": "500mg",
+    "zh": "500mg"
+   },
+   "dims_mm": {
+    "length": 17.053,
+    "width": 8.442,
+    "height": 8.442
+   },
+   "extra_mm": {
+    "shape": "oblong",
+    "shellMm": 0.4
+   },
+   "mass_mg": 500,
+   "volume_mm3": 543.5,
+   "solid": false,
+   "basis": "derived",
+   "source": "United Pharmatek softgel size chart (shape class) + 회사소개서 p11 (fill mg) + L/D measured from brochure photos",
+   "bytes": 29520,
+   "camera": {
+    "elevationDeg": 70,
+    "azimuthDeg": 0,
+    "fillRatio": 0.8
+   }
+  },
+  {
+   "slug": "softgel",
+   "sizeId": "800mg",
+   "order": 3,
+   "file": "/models/dosage/softgel/800mg.glb",
+   "label": {
+    "ko": "800mg",
+    "en": "800mg",
+    "zh": "800mg"
+   },
+   "dims_mm": {
+    "length": 21.907,
+    "width": 9.283,
+    "height": 9.283
+   },
+   "extra_mm": {
+    "shape": "oblong",
+    "shellMm": 0.4
+   },
+   "mass_mg": 800,
+   "volume_mm3": 869.6,
+   "solid": false,
+   "basis": "derived",
+   "source": "United Pharmatek softgel size chart (shape class) + 회사소개서 p11 (fill mg) + L/D measured from brochure photos",
+   "bytes": 29524,
+   "camera": {
+    "elevationDeg": 70,
+    "azimuthDeg": 0,
+    "fillRatio": 0.8
+   }
+  },
+  {
+   "slug": "softgel",
+   "sizeId": "900-1000mg",
+   "order": 4,
+   "file": "/models/dosage/softgel/900-1000mg.glb",
+   "label": {
+    "ko": "900~1,000mg",
+    "en": "900~1,000mg",
+    "zh": "900~1,000mg"
+   },
+   "dims_mm": {
+    "length": 25.254,
+    "width": 9.388,
+    "height": 9.388
+   },
+   "extra_mm": {
+    "shape": "oblong",
+    "shellMm": 0.4
+   },
+   "mass_mg": 950,
+   "volume_mm3": 1032.6,
+   "solid": false,
+   "basis": "derived",
+   "source": "United Pharmatek softgel size chart (shape class) + 회사소개서 p11 (fill mg) + L/D measured from brochure photos",
+   "bytes": 29524,
+   "camera": {
+    "elevationDeg": 70,
+    "azimuthDeg": 0,
+    "fillRatio": 0.8
+   }
+  },
+  {
+   "slug": "powder",
+   "sizeId": "berry",
+   "order": 0,
+   "file": "/models/dosage/powder/berry.glb",
+   "label": {
+    "ko": "1,000~20,000mg",
+    "en": "1,000–20,000 mg",
+    "zh": "1,000~20,000mg"
+   },
+   "dims_mm": {
+    "length": 66.56,
+    "width": 63.924,
+    "height": 22.894
+   },
+   "extra_mm": {},
+   "mass_mg": 10500.0,
+   "volume_mm3": 21000.0,
+   "solid": true,
+   "basis": "derived",
+   "source": "회사소개서 2026-04 p10·p11; bulk density 0.5 g/mL assumed",
+   "bytes": 109232,
+   "camera": {
+    "elevationDeg": 25,
+    "azimuthDeg": 0,
+    "fillRatio": 0.9
+   }
+  },
+  {
+   "slug": "granule",
+   "sizeId": "brown",
+   "order": 0,
+   "file": "/models/dosage/granule/brown.glb",
+   "label": {
+    "ko": "갈색",
+    "en": "Brown",
+    "zh": "棕色"
+   },
+   "dims_mm": {
+    "length": 50.253,
+    "width": 51.812,
+    "height": 12.624
+   },
+   "extra_mm": {},
+   "mass_mg": 4000.0,
+   "volume_mm3": 6666.7,
+   "solid": true,
+   "basis": "derived",
+   "source": "회사소개서 2026-04 p10·p11; bulk density 0.6 g/mL assumed",
+   "bytes": 144272,
+   "camera": {
+    "elevationDeg": 25,
+    "azimuthDeg": 0,
+    "fillRatio": 0.8
+   }
+  },
+  {
+   "slug": "granule",
+   "sizeId": "green",
+   "order": 1,
+   "file": "/models/dosage/granule/green.glb",
+   "label": {
+    "ko": "녹색",
+    "en": "Green",
+    "zh": "绿色"
+   },
+   "dims_mm": {
+    "length": 51.681,
+    "width": 51.152,
+    "height": 12.624
+   },
+   "extra_mm": {},
+   "mass_mg": 4000.0,
+   "volume_mm3": 6666.7,
+   "solid": true,
+   "basis": "derived",
+   "source": "회사소개서 2026-04 p10·p11; bulk density 0.6 g/mL assumed",
+   "bytes": 138500,
+   "camera": {
+    "elevationDeg": 25,
+    "azimuthDeg": 0,
+    "fillRatio": 0.8
+   }
+  },
+  {
+   "slug": "granule",
+   "sizeId": "orange",
+   "order": 2,
+   "file": "/models/dosage/granule/orange.glb",
+   "label": {
+    "ko": "주황",
+    "en": "Orange",
+    "zh": "橙色"
+   },
+   "dims_mm": {
+    "length": 51.335,
+    "width": 51.335,
+    "height": 12.624
+   },
+   "extra_mm": {},
+   "mass_mg": 4000.0,
+   "volume_mm3": 6666.7,
+   "solid": true,
+   "basis": "derived",
+   "source": "회사소개서 2026-04 p10·p11; bulk density 0.6 g/mL assumed",
+   "bytes": 136956,
+   "camera": {
+    "elevationDeg": 25,
+    "azimuthDeg": 0,
+    "fillRatio": 0.8
+   }
+  },
+  {
+   "slug": "pill",
+   "sizeId": "small",
+   "order": 0,
+   "file": "/models/dosage/pill/small.glb",
+   "label": {
+    "ko": "소환 3~5Φ",
+    "en": "Small 3–5 Φ",
+    "zh": "小丸 3~5Φ"
+   },
+   "dims_mm": {
+    "length": 3.5,
+    "width": 3.5,
+    "height": 3.5
+   },
+   "extra_mm": {},
+   "mass_mg": null,
+   "volume_mm3": null,
+   "solid": true,
+   "basis": "customer",
+   "source": "회사소개서 p10·p11 (소환 3~5 Φ, 4 mm 사용)",
+   "bytes": 40436,
+   "camera": {
+    "elevationDeg": 30,
+    "azimuthDeg": 0,
+    "fillRatio": 0.8
+   }
+  },
+  {
+   "slug": "pill",
+   "sizeId": "large",
+   "order": 1,
+   "file": "/models/dosage/pill/large.glb",
+   "label": {
+    "ko": "대환 15.5~16.5Φ",
+    "en": "Large 15.5–16.5 Φ",
+    "zh": "大丸 15.5~16.5Φ"
+   },
+   "dims_mm": {
+    "length": 16.0,
+    "width": 16.0,
+    "height": 16.0
+   },
+   "extra_mm": {},
+   "mass_mg": null,
+   "volume_mm3": null,
+   "solid": true,
+   "basis": "customer",
+   "source": "회사소개서 p10·p11 (대환 15.5~16.5 Φ, 16 mm 사용)",
+   "bytes": 51564,
+   "camera": {
+    "elevationDeg": 20,
+    "azimuthDeg": 0,
+    "fillRatio": 0.75
+   }
+  },
+  {
+   "slug": "liquid",
+   "sizeId": "40ml",
+   "order": 0,
+   "file": "/models/dosage/liquid/40ml.glb",
+   "label": {
+    "ko": "10~70ml",
+    "en": "10–70 ml",
+    "zh": "10~70ml"
+   },
+   "dims_mm": {
+    "length": 127.363,
+    "width": 38.454,
+    "height": 13.436
+   },
+   "extra_mm": {},
+   "mass_mg": null,
+   "volume_mm3": 40000.0,
+   "solid": true,
+   "basis": "derived",
+   "source": "회사소개서 2026-04 p10·p11 (10~70 ml, 40 ml modelled; pouch size derived from volume). Brochure shows a round liquid sample; drop beside the pouch is illustrative, not to volume",
+   "bytes": 48768,
+   "camera": {
+    "elevationDeg": 80,
+    "azimuthDeg": 0,
+    "fillRatio": 0.8
+   }
+  },
+  {
+   "slug": "jelly",
+   "sizeId": "17.5g",
+   "order": 0,
+   "file": "/models/dosage/jelly/17.5g.glb",
+   "label": {
+    "ko": "15~20g",
+    "en": "15–20 g",
+    "zh": "15~20g"
+   },
+   "dims_mm": {
+    "length": 22.699,
+    "width": 10.197,
+    "height": 114.146
+   },
+   "extra_mm": {},
+   "mass_mg": 17500.0,
+   "volume_mm3": 15909.1,
+   "solid": true,
+   "basis": "derived",
+   "source": "회사소개서 2026-04 p10·p11 (15~20 g, 17.5 g modelled, density 1.1)",
+   "bytes": 19176,
+   "camera": {
+    "elevationDeg": 8,
+    "azimuthDeg": 0,
+    "fillRatio": 0.85
+   }
+  }
+ ],
+ "lineups": [
+  {
+   "slug": "tablet",
+   "file": "/models/dosage/tablet/lineup.glb",
+   "sizeIds": [
+    "400-600mg",
+    "500-800mg",
+    "700-1400mg",
+    "800-1500mg"
+   ],
+   "bytes": 150140,
+   "span_mm": {
+    "length": 80.415,
+    "width": 9.133,
+    "height": 6.838
+   },
+   "gap_mm": 3.0,
+   "camera": {
+    "elevationDeg": 45,
+    "azimuthDeg": 4,
+    "fillRatio": 0.9
+   },
+   "includes": []
+  },
+  {
+   "slug": "mini-tablet",
+   "file": "/models/dosage/mini-tablet/lineup.glb",
+   "sizeIds": [
+    "4mm"
+   ],
+   "bytes": 47300,
+   "span_mm": {
+    "length": 28.412,
+    "width": 8.176,
+    "height": 5.658
+   },
+   "gap_mm": 3.0,
+   "camera": {
+    "elevationDeg": 45,
+    "azimuthDeg": 8,
+    "fillRatio": 0.9
+   },
+   "includes": [
+    "tablet/500-800mg"
+   ]
+  },
+  {
+   "slug": "chewable",
+   "file": "/models/dosage/chewable/lineup.glb",
+   "sizeIds": [
+    "round",
+    "dog",
+    "rabbit",
+    "cat",
+    "bear"
+   ],
+   "bytes": 582628,
+   "span_mm": {
+    "length": 108.458,
+    "width": 19.454,
+    "height": 5.22
+   },
+   "gap_mm": 3.0,
+   "camera": {
+    "elevationDeg": 45,
+    "azimuthDeg": 4,
+    "fillRatio": 0.9
+   },
+   "includes": []
+  },
+  {
+   "slug": "hard-capsule",
+   "file": "/models/dosage/hard-capsule/lineup.glb",
+   "sizeIds": [
+    "no1",
+    "no0",
+    "no00",
+    "enteric"
+   ],
+   "bytes": 128388,
+   "span_mm": {
+    "length": 96.7,
+    "width": 8.53,
+    "height": 8.53
+   },
+   "gap_mm": 3.0,
+   "camera": {
+    "elevationDeg": 15,
+    "azimuthDeg": 4,
+    "fillRatio": 0.9
+   },
+   "includes": []
+  },
+  {
+   "slug": "softgel",
+   "file": "/models/dosage/softgel/lineup.glb",
+   "sizeIds": [
+    "155mg",
+    "300mg",
+    "500mg",
+    "800mg",
+    "900-1000mg"
+   ],
+   "bytes": 105908,
+   "span_mm": {
+    "length": 98.182,
+    "width": 9.388,
+    "height": 9.388
+   },
+   "gap_mm": 3.0,
+   "camera": {
+    "elevationDeg": 15,
+    "azimuthDeg": 4,
+    "fillRatio": 0.9
+   },
+   "includes": []
+  },
+  {
+   "slug": "powder",
+   "file": "/models/dosage/powder/lineup.glb",
+   "sizeIds": [
+    "berry"
+   ],
+   "bytes": 109232,
+   "span_mm": {
+    "length": 82.379,
+    "width": 79.862,
+    "height": 23.207
+   },
+   "gap_mm": 3.0,
+   "camera": {
+    "elevationDeg": 24,
+    "azimuthDeg": 10,
+    "fillRatio": 0.9
+   },
+   "includes": []
+  },
+  {
+   "slug": "granule",
+   "file": "/models/dosage/granule/lineup.glb",
+   "sizeIds": [
+    "brown",
+    "green",
+    "orange"
+   ],
+   "bytes": 395320,
+   "span_mm": {
+    "length": 161.598,
+    "width": 52.522,
+    "height": 14.024
+   },
+   "gap_mm": 3.0,
+   "camera": {
+    "elevationDeg": 24,
+    "azimuthDeg": 10,
+    "fillRatio": 0.9
+   },
+   "includes": []
+  },
+  {
+   "slug": "pill",
+   "file": "/models/dosage/pill/lineup.glb",
+   "sizeIds": [
+    "small",
+    "large"
+   ],
+   "bytes": 68264,
+   "span_mm": {
+    "length": 62.055,
+    "width": 45.693,
+    "height": 25.387
+   },
+   "gap_mm": 3.0,
+   "camera": {
+    "elevationDeg": 24,
+    "azimuthDeg": 10,
+    "fillRatio": 0.9
+   },
+   "includes": []
+  },
+  {
+   "slug": "liquid",
+   "file": "/models/dosage/liquid/lineup.glb",
+   "sizeIds": [
+    "40ml"
+   ],
+   "bytes": 48732,
+   "span_mm": {
+    "length": 127.363,
+    "width": 82.454,
+    "height": 13.436
+   },
+   "gap_mm": 3.0,
+   "camera": {
+    "elevationDeg": 24,
+    "azimuthDeg": 10,
+    "fillRatio": 0.9
+   },
+   "includes": []
+  },
+  {
+   "slug": "jelly",
+   "file": "/models/dosage/jelly/lineup.glb",
+   "sizeIds": [
+    "17.5g"
+   ],
+   "bytes": 19176,
+   "span_mm": {
+    "length": 22.699,
+    "width": 10.197,
+    "height": 114.146
+   },
+   "gap_mm": 3.0,
+   "camera": {
+    "elevationDeg": 24,
+    "azimuthDeg": 10,
+    "fillRatio": 0.9
+   },
+   "includes": []
+  }
+ ]
+}
