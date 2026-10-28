@@ -1,0 +1,1983 @@
+{
+  "leave": [],
+  "userId": "u5eps1HWlW62AlI26YKxfwdwIHQawTY8",
+  "profile": {
+    "fields": {
+      "hire_date": "2023-09-01",
+      "legal_name": "가상 성명 09",
+      "work_status": "working",
+      "mobile_phone": "010-0000-1333",
+      "work_location": "plant",
+      "personal_email": "p09@example.test",
+      "employment_type": "regular"
+    },
+    "createdAt": "2026-10-28T18:36:26.745268+00:00"
+  },
+  "reviews": [
+    {
+      "kind": "manager",
+      "answers": [
+        {
+          "key": "collaboration",
+          "score": 4,
+          "comment": ""
+        },
+        {
+          "key": "customer_focus",
+          "score": 4,
+          "comment": ""
+        },
+        {
+          "key": "expertise",
+          "score": 4,
+          "comment": ""
+        },
+        {
+          "key": "initiative",
+          "score": 4,
+          "comment": ""
+        },
+        {
+          "key": "problem_solving",
+          "score": 4,
+          "comment": ""
+        },
+        {
+          "key": "responsibility",
+          "score": 4,
+          "comment": ""
+        },
+        {
+          "key": "safety",
+          "score": 4,
+          "comment": ""
+        }
+      ],
+      "cycleId": "7b9d62d0-167f-4461-b71d-df89a0e89ca0",
+      "submittedAt": "2026-10-28T18:45:57.249126+00:00"
+    },
+    {
+      "kind": "self",
+      "answers": [
+        {
+          "key": "collaboration",
+          "score": 4,
+          "comment": ""
+        },
+        {
+          "key": "customer_focus",
+          "score": 4,
+          "comment": ""
+        },
+        {
+          "key": "expertise",
+          "score": 4,
+          "comment": ""
+        },
+        {
+          "key": "initiative",
+          "score": 4,
+          "comment": ""
+        },
+        {
+          "key": "problem_solving",
+          "score": 4,
+          "comment": ""
+        },
+        {
+          "key": "responsibility",
+          "score": 4,
+          "comment": ""
+        },
+        {
+          "key": "safety",
+          "score": 4,
+          "comment": ""
+        }
+      ],
+      "cycleId": "7b9d62d0-167f-4461-b71d-df89a0e89ca0",
+      "submittedAt": "2026-10-28T18:45:57.238181+00:00"
+    }
+  ],
+  "payslips": [
+    {
+      "net": 3171280,
+      "kind": "regular",
+      "gross": 3580000,
+      "period": "2026-10",
+      "details": null,
+      "payDate": "2026-10-25",
+      "earnings": [
+        {
+          "label": "기본급",
+          "amount": 3200000
+        },
+        {
+          "label": "연장근로수당",
+          "amount": 180000
+        },
+        {
+          "label": "식대",
+          "amount": 200000
+        }
+      ],
+      "deductions": [
+        {
+          "label": "국민연금",
+          "amount": 144000
+        },
+        {
+          "label": "건강보험",
+          "amount": 113440
+        },
+        {
+          "label": "장기요양보험",
+          "amount": 14690
+        },
+        {
+          "label": "고용보험",
+          "amount": 28790
+        },
+        {
+          "label": "소득세",
+          "amount": 98000
+        },
+        {
+          "label": "지방소득세",
+          "amount": 9800
+        }
+      ],
+      "viewedFirstAt": "2026-10-28T19:13:18.903487+00:00",
+      "totalDeductions": 408720
+    }
+  ],
+  "personId": "82b45cb9-ad11-4ec1-98fe-7afd67b737e4",
+  "accessLog": [
+    {
+      "at": "2026-10-28T19:26:11.235311+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:26:11.215752+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.contract.viewed",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:26:11.036269+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:26:11.029526+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.payslip.viewed",
+      "fields": [
+        "payslip"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:26:11.016835+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:26:11.014757+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.viewed",
+      "fields": [
+        "work_days"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 20
+    },
+    {
+      "at": "2026-10-28T19:26:11.003898+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:26:09.500891+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.viewed",
+      "fields": [
+        "review_result"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 2
+    },
+    {
+      "at": "2026-10-28T19:26:09.364816+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.results_listed",
+      "fields": [
+        "review_result"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 3
+    },
+    {
+      "at": "2026-10-28T19:26:08.914745+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.payslip.listed",
+      "fields": [],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:26:08.588216+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.viewed",
+      "fields": [
+        "work_days"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 3
+    },
+    {
+      "at": "2026-10-28T19:26:08.4937+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.status_viewed",
+      "fields": [
+        "work_now"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:26:08.251631+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.status_viewed",
+      "fields": [
+        "work_now"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:24:11.046562+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.contract.downloaded",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e",
+        "file:original"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:24:11.011422+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot",
+        "pdf"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:24:10.851884+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.contract.viewed",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:24:10.733064+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:23:54.674526+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot",
+        "pdf"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:23:54.640673+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.contract.downloaded",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e",
+        "file:original"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:23:54.618346+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.payslip.viewed",
+      "fields": [
+        "payslip"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:23:54.409848+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.export.generated",
+      "fields": [
+        "profile",
+        "leave",
+        "work",
+        "payslips",
+        "certificates",
+        "contracts",
+        "reviews",
+        "access_log"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 154
+    },
+    {
+      "at": "2026-10-28T19:23:54.364666+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.contract.viewed",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:23:54.360884+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.export.generated",
+      "fields": [
+        "profile",
+        "leave",
+        "work",
+        "payslips",
+        "certificates",
+        "contracts",
+        "reviews",
+        "access_log"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 152
+    },
+    {
+      "at": "2026-10-28T19:23:54.332774+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:23:54.329868+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:23:54.25938+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:23:54.208353+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:23:54.118911+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.payslip.viewed",
+      "fields": [
+        "payslip"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:23:54.104728+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.viewed",
+      "fields": [
+        "work_days"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 20
+    },
+    {
+      "at": "2026-10-28T19:23:53.061645+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.viewed",
+      "fields": [
+        "review_result"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 2
+    },
+    {
+      "at": "2026-10-28T19:23:52.964706+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.results_listed",
+      "fields": [
+        "review_result"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 3
+    },
+    {
+      "at": "2026-10-28T19:23:52.773289+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.payslip.listed",
+      "fields": [],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:23:52.678293+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.viewed",
+      "fields": [
+        "work_days"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 3
+    },
+    {
+      "at": "2026-10-28T19:23:52.57503+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.status_viewed",
+      "fields": [
+        "work_now"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:23:52.270618+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.status_viewed",
+      "fields": [
+        "work_now"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:14:42.70018+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot",
+        "pdf"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:14:42.67914+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.contract.downloaded",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e",
+        "file:original"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:14:42.59624+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.contract.viewed",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:14:42.511979+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:13:19.084786+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.contract.downloaded",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e",
+        "file:original"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:13:19.061579+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.payslip.viewed",
+      "fields": [
+        "payslip"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:13:19.060066+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot",
+        "pdf"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:13:19.010747+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.export.generated",
+      "fields": [
+        "profile",
+        "leave",
+        "work",
+        "payslips",
+        "certificates",
+        "contracts",
+        "reviews",
+        "access_log"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 132
+    },
+    {
+      "at": "2026-10-28T19:13:18.989393+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.export.generated",
+      "fields": [
+        "profile",
+        "leave",
+        "work",
+        "payslips",
+        "certificates",
+        "contracts",
+        "reviews",
+        "access_log"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 131
+    },
+    {
+      "at": "2026-10-28T19:13:18.975198+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.contract.viewed",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:13:18.97339+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:13:18.948476+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:13:18.9464+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:13:18.94499+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:13:18.903611+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.payslip.viewed",
+      "fields": [
+        "payslip"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:13:18.864971+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.viewed",
+      "fields": [
+        "work_days"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 20
+    },
+    {
+      "at": "2026-10-28T19:13:18.49461+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.viewed",
+      "fields": [
+        "review_result"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 2
+    },
+    {
+      "at": "2026-10-28T19:13:18.474022+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.results_listed",
+      "fields": [
+        "review_result"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 3
+    },
+    {
+      "at": "2026-10-28T19:13:18.338815+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.payslip.listed",
+      "fields": [],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:13:18.209656+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.viewed",
+      "fields": [
+        "work_days"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 3
+    },
+    {
+      "at": "2026-10-28T19:13:18.19279+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.status_viewed",
+      "fields": [
+        "work_now"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:13:18.083923+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.status_viewed",
+      "fields": [
+        "work_now"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T18:46:51.193142+00:00",
+      "code": "rate_limited",
+      "actor": "가상 사용자 19",
+      "action": "hr.contract.viewed",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e"
+      ],
+      "outcome": "denied",
+      "purpose": null,
+      "rowCount": null
+    },
+    {
+      "at": "2026-10-28T18:46:51.15292+00:00",
+      "code": "rate_limited",
+      "actor": "가상 사용자 19",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot"
+      ],
+      "outcome": "denied",
+      "purpose": null,
+      "rowCount": null
+    },
+    {
+      "at": "2026-10-28T18:46:28.374348+00:00",
+      "code": "rate_limited",
+      "actor": "가상 사용자 19",
+      "action": "hr.contract.viewed",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e"
+      ],
+      "outcome": "denied",
+      "purpose": null,
+      "rowCount": null
+    },
+    {
+      "at": "2026-10-28T18:46:28.330792+00:00",
+      "code": "rate_limited",
+      "actor": "가상 사용자 19",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot"
+      ],
+      "outcome": "denied",
+      "purpose": null,
+      "rowCount": null
+    },
+    {
+      "at": "2026-10-28T18:46:20.789865+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot",
+        "pdf"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T18:46:20.779776+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.contract.downloaded",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e",
+        "file:original"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T18:46:20.708234+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.contract.viewed",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T18:46:20.610005+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T18:45:57.249251+00:00",
+      "code": null,
+      "actor": "가상 사용자 14",
+      "action": "hr.review.submitted",
+      "fields": [
+        "answers"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 7
+    },
+    {
+      "at": "2026-10-28T18:45:57.238292+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.submitted",
+      "fields": [
+        "answers"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 7
+    },
+    {
+      "at": "2026-10-28T18:45:57.228593+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.submitted",
+      "fields": [
+        "answers"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 7
+    },
+    {
+      "at": "2026-10-28T18:45:57.210663+00:00",
+      "code": null,
+      "actor": "가상 사용자 14",
+      "action": "hr.review.submitted",
+      "fields": [
+        "answers"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 7
+    },
+    {
+      "at": "2026-10-28T18:45:57.185298+00:00",
+      "code": null,
+      "actor": "가상 사용자 14",
+      "action": "hr.review.submitted",
+      "fields": [
+        "answers"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 7
+    },
+    {
+      "at": "2026-10-28T18:45:20.155387+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot",
+        "pdf"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T18:45:20.148595+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.contract.downloaded",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e",
+        "file:original"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T18:45:19.818417+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.contract.viewed",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T18:45:19.768376+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T18:39:58.235909+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.certificate.issued",
+      "fields": [
+        "legal_name",
+        "hire_date",
+        "separation_date",
+        "pdf"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T18:39:58.041474+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.certificate.prepared",
+      "fields": [
+        "legal_name",
+        "hire_date",
+        "separation_date"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T18:37:58.667775+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.contract.signed",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e",
+        "sha256:b33f4638e98d7feb3615461606ee4c1310dc206abb7187f6c08da206a8349750"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T18:37:57.51791+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.contract.sent",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e",
+        "sha256:b33f4638e98d7feb3615461606ee4c1310dc206abb7187f6c08da206a8349750"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T18:37:57.178121+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.profile.revealed",
+      "fields": [
+        "legal_name",
+        "hire_date"
+      ],
+      "outcome": "allowed",
+      "purpose": "contract_send",
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T18:37:53.422086+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.submitted",
+      "fields": [
+        "answers"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 7
+    },
+    {
+      "at": "2026-10-28T18:37:53.372867+00:00",
+      "code": null,
+      "actor": "가상 사용자 14",
+      "action": "hr.review.submitted",
+      "fields": [
+        "answers"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 7
+    },
+    {
+      "at": "2026-10-28T18:37:53.278432+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.submitted",
+      "fields": [
+        "answers"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 7
+    },
+    {
+      "at": "2026-10-28T18:37:53.259679+00:00",
+      "code": null,
+      "actor": "가상 사용자 14",
+      "action": "hr.review.submitted",
+      "fields": [
+        "answers"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 7
+    },
+    {
+      "at": "2026-10-28T18:36:26.747497+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.account.linked",
+      "fields": [
+        "user_id"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T18:36:26.745759+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.person.created",
+      "fields": [
+        "employment_type",
+        "hire_date",
+        "legal_name",
+        "mobile_phone",
+        "personal_email",
+        "work_location",
+        "work_status"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    }
+  ],
+  "contracts": [
+    {
+      "dueAt": "2026-11-10T14:59:59+00:00",
+      "files": [
+        {
+          "kind": "original",
+          "bytes": 63463,
+          "sha256": "b33f4638e98d7feb3615461606ee4c1310dc206abb7187f6c08da206a8349750",
+          "createdAt": "2026-10-28T18:37:57.516811+00:00"
+        }
+      ],
+      "title": "비밀유지 서약서(견본)",
+      "events": [
+        {
+          "at": "2026-10-28T18:37:57.517832+00:00",
+          "ip": null,
+          "kind": "sent",
+          "actor": "company",
+          "docSha256": "b33f4638e98d7feb3615461606ee4c1310dc206abb7187f6c08da206a8349750",
+          "userAgent": null,
+          "declineReason": null
+        },
+        {
+          "at": "2026-10-28T18:37:58.667707+00:00",
+          "ip": null,
+          "kind": "signed",
+          "actor": "self",
+          "docSha256": "b33f4638e98d7feb3615461606ee4c1310dc206abb7187f6c08da206a8349750",
+          "userAgent": null,
+          "declineReason": null
+        }
+      ],
+      "fields": {
+        "scope": "신제품 처방 정보(가상)",
+        "hire_date": "2023-09-01",
+        "legal_name": "가상 성명 09",
+        "term_years": "2"
+      },
+      "sentAt": "2026-10-28T18:37:57.516718+00:00",
+      "status": "signed",
+      "contractId": "d49ef8ee-ae1e-488b-9183-359c824d329e",
+      "templateKey": "nda",
+      "originalSha256": "b33f4638e98d7feb3615461606ee4c1310dc206abb7187f6c08da206a8349750",
+      "completedSha256": null,
+      "templateVersion": 1,
+      "companySignRequired": false
+    }
+  ],
+  "workEvents": [
+    {
+      "at": "2026-08-31T23:41:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-01T09:05:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-01T23:42:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-02T09:10:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-02T23:43:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-03T09:15:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-03T23:44:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-04T09:20:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-06T23:47:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-07T09:35:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-07T23:48:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-08T09:00:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-08T23:49:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-09T09:05:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-09T23:50:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-10T09:10:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-10T23:51:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-11T09:15:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-13T23:54:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-14T09:30:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-14T23:55:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-15T09:35:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-15T23:56:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-16T09:00:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-16T23:57:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-17T09:05:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-17T23:58:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-18T09:10:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-20T23:42:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-21T09:25:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-21T23:43:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-22T09:30:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-22T23:44:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-23T09:35:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-23T23:45:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-24T09:00:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-24T23:46:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-25T09:05:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-27T23:49:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-28T09:20:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-28T23:50:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-29T09:25:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-29T23:51:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-30T09:30:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-09-30T23:41:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-01T09:05:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-01T23:42:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-02T09:10:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-04T23:45:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-05T09:25:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-05T23:46:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-06T09:30:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-06T23:47:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-07T09:35:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-07T23:48:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-08T09:00:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-08T23:49:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-09T09:05:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-11T23:52:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-12T09:20:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-12T23:53:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-13T09:25:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-13T23:54:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-14T09:30:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-14T23:55:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-15T09:35:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-15T23:56:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-16T09:00:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-18T23:40:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-19T09:15:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-19T23:41:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-20T09:20:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-20T23:42:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-21T09:25:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-21T23:43:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-22T09:30:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-22T23:44:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-23T09:35:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-25T23:47:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-26T09:10:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-26T23:48:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-27T09:15:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-27T23:49:00+00:00",
+      "kind": "in",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    },
+    {
+      "at": "2026-10-28T09:20:00+00:00",
+      "kind": "out",
+      "geoOk": null,
+      "reason": null,
+      "zoneOk": null,
+      "clientIp": null
+    }
+  ],
+  "generatedAt": "2026-10-28T19:26:11.244806+00:00",
+  "certificates": [
+    {
+      "kind": "employment",
+      "copies": 1,
+      "issueNo": "증명-2026-0001",
+      "purpose": "bank",
+      "issuedAt": "2026-10-28T18:39:58.23371+00:00",
+      "pdfBytes": 62213,
+      "snapshot": {
+        "hr": {
+          "hire_date": "2023-09-01",
+          "legal_name": "가상 성명 09",
+          "separation_date": null
+        },
+        "display": {
+          "ceo": "대표이사 가상 대표",
+          "kind": "employment",
+          "unit": "유유헬스케어 가상 본부 A 가상 팀 A-1 가상 파트 A-1-a",
+          "copies": "1",
+          "company": "(주)가상회사",
+          "purpose": "bank",
+          "issuedOn": "2026-10-29",
+          "position": "사원",
+          "submitTo": "가상은행 여신 심사부",
+          "templateVersion": "mock-2026-10-28"
+        }
+      },
+      "submitTo": "가상은행 여신 심사부",
+      "pdfSha256": "80b6dee1aa906b0dc3513830d2203cdcd996b9bad3648378cf6207ae7d897195",
+      "revokedAt": null,
+      "verifyCode": "WWSQSBV7",
+      "templateVersion": "mock-2026-10-28"
+    }
+  ],
+  "workCorrections": []
+}
