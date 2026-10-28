@@ -103,6 +103,181 @@
   "personId": "02c683ae-baf0-4df7-962b-bedaa417055a",
   "accessLog": [
     {
+      "at": "2026-10-28T20:20:26.125073+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.export.generated",
+      "fields": [
+        "profile",
+        "leave",
+        "work",
+        "payslips",
+        "certificates",
+        "contracts",
+        "reviews",
+        "access_log"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 136
+    },
+    {
+      "at": "2026-10-28T20:20:25.926206+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T20:20:25.925165+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T20:20:25.923664+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T20:20:25.85424+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.viewed",
+      "fields": [
+        "work_days"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 0
+    },
+    {
+      "at": "2026-10-28T20:20:25.19847+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.viewed",
+      "fields": [
+        "review_result"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 2
+    },
+    {
+      "at": "2026-10-28T20:20:25.174646+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.results_listed",
+      "fields": [
+        "review_result"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 3
+    },
+    {
+      "at": "2026-10-28T20:20:24.934946+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.payslip.listed",
+      "fields": [],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 0
+    },
+    {
+      "at": "2026-10-28T20:20:24.784221+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.viewed",
+      "fields": [
+        "work_days"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 0
+    },
+    {
+      "at": "2026-10-28T20:20:24.740317+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.status_viewed",
+      "fields": [
+        "work_now"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T20:20:24.569502+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.status_viewed",
+      "fields": [
+        "work_now"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T20:11:35.858545+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.export.generated",
+      "fields": [
+        "profile",
+        "leave",
+        "work",
+        "payslips",
+        "certificates",
+        "contracts",
+        "reviews",
+        "access_log"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 125
+    },
+    {
+      "at": "2026-10-28T20:11:35.811013+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.export.generated",
+      "fields": [
+        "profile",
+        "leave",
+        "work",
+        "payslips",
+        "certificates",
+        "contracts",
+        "reviews",
+        "access_log"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 124
+    },
+    {
       "at": "2026-10-28T20:11:35.141373+00:00",
       "code": null,
       "actor": "self",
@@ -1617,7 +1792,7 @@
   ],
   "contracts": [],
   "workEvents": [],
-  "generatedAt": "2026-10-28T20:11:35.809272+00:00",
+  "generatedAt": "2026-10-28T20:20:26.147039+00:00",
   "certificates": [],
   "workCorrections": []
 }
