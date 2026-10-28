@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog | YUYU Healthcare</title>
+    <link>https://seuput0705.github.io/yuyu-homepage-preview/en/blog</link>
+    <description>Notes on ingredients, formulation, quality, regulation and market trends from a health-supplement ODM partner.</description>
+    <language>en</language>
+    <atom:link href="https://seuput0705.github.io/yuyu-homepage-preview/en/blog/rss" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to choose a dosage form for a health supplement</title>
+      <link>https://seuput0705.github.io/yuyu-homepage-preview/en/blog/choosing-dosage-form</link>
+      <guid isPermaLink="true">https://seuput0705.github.io/yuyu-homepage-preview/en/blog/choosing-dosage-form</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Choose the form by looking at the target consumer, the nature of the ingredient and storage and distribution conditions together. Tablets, powders, liquids and jellies each suit different ingredients and packaging.</description>
+      <category>Formulation &amp; packaging</category>
+    </item>
+    <item>
+      <title>How quality control runs through the production line</title>
+      <link>https://seuput0705.github.io/yuyu-homepage-preview/en/blog/quality-control-basics</link>
+      <guid isPermaLink="true">https://seuput0705.github.io/yuyu-homepage-preview/en/blog/quality-control-basics</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Quality control runs as one line from incoming inspection through in-process checks and finished-product tests to shipping records. Records at every step let you find the cause when something goes wrong.</description>
+      <category>Production &amp; quality</category>
+    </item>
+    <item>
+      <title>Certifications to check before outsourcing manufacturing</title>
+      <link>https://seuput0705.github.io/yuyu-homepage-preview/en/blog/certification-checklist</link>
+      <guid isPermaLink="true">https://seuput0705.github.io/yuyu-homepage-preview/en/blog/certification-checklist</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Before outsourcing, check the facility certifications, the scope of product registration and the validity period. Asking for certificate copies and audit history speeds this up.</description>
+      <category>Certification &amp; regulation</category>
+    </item>
+  </channel>
+</rss>

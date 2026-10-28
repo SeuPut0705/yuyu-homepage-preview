@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>博客 | YUYU Healthcare</title>
+    <link>https://seuput0705.github.io/yuyu-homepage-preview/zh/blog</link>
+    <description>分享保健食品 ODM 在原料、剂型、质量、法规与市场方面的见解。</description>
+    <language>zh-Hans</language>
+    <atom:link href="https://seuput0705.github.io/yuyu-homepage-preview/zh/blog/rss" rel="self" type="application/rss+xml" />
+    <item>
+      <title>保健食品剂型如何选择</title>
+      <link>https://seuput0705.github.io/yuyu-homepage-preview/zh/blog/choosing-dosage-form</link>
+      <guid isPermaLink="true">https://seuput0705.github.io/yuyu-homepage-preview/zh/blog/choosing-dosage-form</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <description>剂型需综合考虑目标人群、原料特性以及储存和流通条件。片剂、粉剂、液体、果冻等剂型适合的原料和包装各不相同。</description>
+      <category>剂型·包装</category>
+    </item>
+    <item>
+      <title>生产现场的质量管理流程</title>
+      <link>https://seuput0705.github.io/yuyu-homepage-preview/zh/blog/quality-control-basics</link>
+      <guid isPermaLink="true">https://seuput0705.github.io/yuyu-homepage-preview/zh/blog/quality-control-basics</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+      <description>质量管理从原料入库检验开始，经过工序中确认、成品检验，直至出货记录，连成一条线。每个环节都留有记录，出现问题时才能找到原因。</description>
+      <category>生产·质量</category>
+    </item>
+    <item>
+      <title>委托生产前需要确认的认证清单</title>
+      <link>https://seuput0705.github.io/yuyu-homepage-preview/zh/blog/certification-checklist</link>
+      <guid isPermaLink="true">https://seuput0705.github.io/yuyu-homepage-preview/zh/blog/certification-checklist</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+      <description>委托生产前，应确认生产设施的认证情况、产品登记范围和有效期。同时索取证书复印件和审核记录，可加快确认。</description>
+      <category>认证·法规</category>
+    </item>
+  </channel>
+</rss>
