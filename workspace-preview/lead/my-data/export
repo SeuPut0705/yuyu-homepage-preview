@@ -103,6 +103,162 @@
   "personId": "b674444d-73ea-4c61-bf55-e7facb95eb86",
   "accessLog": [
     {
+      "at": "2026-10-28T20:11:22.539512+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T20:11:22.524136+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T20:11:22.290884+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T20:11:22.187263+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.viewed",
+      "fields": [
+        "work_days"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 0
+    },
+    {
+      "at": "2026-10-28T20:11:19.884306+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.viewed",
+      "fields": [
+        "review_result"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 2
+    },
+    {
+      "at": "2026-10-28T20:11:19.612194+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.results_listed",
+      "fields": [
+        "review_result"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 3
+    },
+    {
+      "at": "2026-10-28T20:11:19.467565+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.payslip.listed",
+      "fields": [],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 0
+    },
+    {
+      "at": "2026-10-28T20:11:18.713526+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.viewed",
+      "fields": [
+        "work_days"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 0
+    },
+    {
+      "at": "2026-10-28T20:11:18.512659+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.status_viewed",
+      "fields": [
+        "work_now"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T20:11:18.053638+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.status_viewed",
+      "fields": [
+        "work_now"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:26:19.412135+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.export.generated",
+      "fields": [
+        "profile",
+        "leave",
+        "work",
+        "payslips",
+        "certificates",
+        "contracts",
+        "reviews",
+        "access_log"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 49
+    },
+    {
+      "at": "2026-10-28T19:26:19.387387+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.export.generated",
+      "fields": [
+        "profile",
+        "leave",
+        "work",
+        "payslips",
+        "certificates",
+        "contracts",
+        "reviews",
+        "access_log"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 48
+    },
+    {
       "at": "2026-10-28T19:26:19.204247+00:00",
       "code": null,
       "actor": "self",
@@ -673,7 +829,7 @@
   ],
   "contracts": [],
   "workEvents": [],
-  "generatedAt": "2026-10-28T19:26:19.386255+00:00",
+  "generatedAt": "2026-10-28T20:11:23.118067+00:00",
   "certificates": [],
   "workCorrections": []
 }

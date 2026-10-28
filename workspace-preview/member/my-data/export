@@ -154,6 +154,274 @@
   "personId": "82b45cb9-ad11-4ec1-98fe-7afd67b737e4",
   "accessLog": [
     {
+      "at": "2026-10-28T20:11:11.565796+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.contract.viewed",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T20:11:09.837213+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T20:11:09.830046+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T20:11:09.749886+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.payslip.viewed",
+      "fields": [
+        "payslip"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T20:11:09.742899+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.assignment_viewed",
+      "fields": [
+        "review_assignment"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T20:11:09.447832+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.viewed",
+      "fields": [
+        "work_days"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 20
+    },
+    {
+      "at": "2026-10-28T20:11:06.616278+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.viewed",
+      "fields": [
+        "review_result"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 2
+    },
+    {
+      "at": "2026-10-28T20:11:06.405738+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.review.results_listed",
+      "fields": [
+        "review_result"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 3
+    },
+    {
+      "at": "2026-10-28T20:11:05.825977+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.payslip.listed",
+      "fields": [],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T20:11:05.166694+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.viewed",
+      "fields": [
+        "work_days"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 3
+    },
+    {
+      "at": "2026-10-28T20:11:04.990744+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.status_viewed",
+      "fields": [
+        "work_now"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T20:11:04.759087+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.work.status_viewed",
+      "fields": [
+        "work_now"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:26:30.419641+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.contract.downloaded",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e",
+        "file:original"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:26:30.392005+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot",
+        "pdf"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:26:29.342915+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.contract.viewed",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:26:28.584992+00:00",
+      "code": null,
+      "actor": "가상 사용자 19",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:26:11.651896+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.certificate.viewed",
+      "fields": [
+        "fields_snapshot",
+        "pdf"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:26:11.634059+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.payslip.viewed",
+      "fields": [
+        "payslip"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:26:11.605909+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.contract.downloaded",
+      "fields": [
+        "contract:d49ef8ee-ae1e-488b-9183-359c824d329e",
+        "file:original"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 1
+    },
+    {
+      "at": "2026-10-28T19:26:11.301373+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.export.generated",
+      "fields": [
+        "profile",
+        "leave",
+        "work",
+        "payslips",
+        "certificates",
+        "contracts",
+        "reviews",
+        "access_log"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 176
+    },
+    {
+      "at": "2026-10-28T19:26:11.247021+00:00",
+      "code": null,
+      "actor": "self",
+      "action": "hr.export.generated",
+      "fields": [
+        "profile",
+        "leave",
+        "work",
+        "payslips",
+        "certificates",
+        "contracts",
+        "reviews",
+        "access_log"
+      ],
+      "outcome": "allowed",
+      "purpose": null,
+      "rowCount": 175
+    },
+    {
       "at": "2026-10-28T19:26:11.235311+00:00",
       "code": null,
       "actor": "self",
@@ -1944,7 +2212,7 @@
       "clientIp": null
     }
   ],
-  "generatedAt": "2026-10-28T19:26:11.244806+00:00",
+  "generatedAt": "2026-10-28T20:11:11.577584+00:00",
   "certificates": [
     {
       "kind": "employment",
