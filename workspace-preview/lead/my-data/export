@@ -1,6 +1,6 @@
 {
   "leave": [],
-  "userId": "I2QxcbRtgRiwuR2XeiybAvnW1VkmXvZt",
+  "userId": "nRo2TgEbLty1FLKhzJhk7LD9Q9hz6gai",
   "profile": {
     "fields": {
       "hire_date": "2023-09-01",
@@ -11,7 +11,7 @@
       "personal_email": "p04@example.test",
       "employment_type": "regular"
     },
-    "createdAt": "2026-10-28T22:25:38.75144+00:00"
+    "createdAt": "2026-10-29T03:06:57.385597+00:00"
   },
   "reviews": [
     {
@@ -19,91 +19,49 @@
       "answers": [
         {
           "key": "collaboration",
-          "score": 4,
+          "score": 5,
           "comment": ""
         },
         {
           "key": "customer_focus",
-          "score": 4,
+          "score": 5,
           "comment": ""
         },
         {
           "key": "expertise",
-          "score": 4,
+          "score": 5,
           "comment": ""
         },
         {
           "key": "initiative",
-          "score": 4,
+          "score": 5,
           "comment": ""
         },
         {
           "key": "problem_solving",
-          "score": 4,
+          "score": 5,
           "comment": ""
         },
         {
           "key": "responsibility",
-          "score": 4,
+          "score": 5,
           "comment": ""
         },
         {
           "key": "safety",
-          "score": 4,
+          "score": 5,
           "comment": ""
         }
       ],
-      "cycleId": "498a7f96-515b-42fa-985e-6643fcccfa75",
-      "submittedAt": "2026-10-28T22:25:41.35463+00:00"
-    },
-    {
-      "kind": "self",
-      "answers": [
-        {
-          "key": "collaboration",
-          "score": 4,
-          "comment": ""
-        },
-        {
-          "key": "customer_focus",
-          "score": 4,
-          "comment": ""
-        },
-        {
-          "key": "expertise",
-          "score": 4,
-          "comment": ""
-        },
-        {
-          "key": "initiative",
-          "score": 4,
-          "comment": ""
-        },
-        {
-          "key": "problem_solving",
-          "score": 4,
-          "comment": ""
-        },
-        {
-          "key": "responsibility",
-          "score": 4,
-          "comment": ""
-        },
-        {
-          "key": "safety",
-          "score": 4,
-          "comment": ""
-        }
-      ],
-      "cycleId": "498a7f96-515b-42fa-985e-6643fcccfa75",
-      "submittedAt": "2026-10-28T22:25:41.345279+00:00"
+      "cycleId": "52cae268-17f7-4b69-8493-882f7b5ab95f",
+      "submittedAt": "2026-10-29T03:07:00.332847+00:00"
     }
   ],
   "payslips": [],
-  "personId": "81a6051e-7a3a-422f-8926-07473a3162d8",
+  "personId": "21988e5a-902f-4ea5-a833-ef4d1098deb3",
   "accessLog": [
     {
-      "at": "2026-10-28T22:26:58.404971+00:00",
+      "at": "2026-10-29T03:08:24.023403+00:00",
       "code": null,
       "actor": "self",
       "action": "hr.export.generated",
@@ -119,10 +77,10 @@
       ],
       "outcome": "allowed",
       "purpose": null,
-      "rowCount": 20
+      "rowCount": 16
     },
     {
-      "at": "2026-10-28T22:26:58.361787+00:00",
+      "at": "2026-10-29T03:08:23.975218+00:00",
       "code": null,
       "actor": "self",
       "action": "hr.review.assignment_viewed",
@@ -134,7 +92,7 @@
       "rowCount": 1
     },
     {
-      "at": "2026-10-28T22:26:58.354787+00:00",
+      "at": "2026-10-29T03:08:23.953258+00:00",
       "code": null,
       "actor": "self",
       "action": "hr.review.assignment_viewed",
@@ -146,7 +104,7 @@
       "rowCount": 1
     },
     {
-      "at": "2026-10-28T22:26:58.348355+00:00",
+      "at": "2026-10-29T03:08:23.945689+00:00",
       "code": null,
       "actor": "self",
       "action": "hr.work.viewed",
@@ -158,7 +116,7 @@
       "rowCount": 0
     },
     {
-      "at": "2026-10-28T22:26:58.335599+00:00",
+      "at": "2026-10-29T03:08:23.941051+00:00",
       "code": null,
       "actor": "self",
       "action": "hr.review.assignment_viewed",
@@ -170,7 +128,7 @@
       "rowCount": 1
     },
     {
-      "at": "2026-10-28T22:26:57.953451+00:00",
+      "at": "2026-10-29T03:08:23.51273+00:00",
       "code": null,
       "actor": "self",
       "action": "hr.review.viewed",
@@ -179,10 +137,10 @@
       ],
       "outcome": "allowed",
       "purpose": null,
-      "rowCount": 2
+      "rowCount": 1
     },
     {
-      "at": "2026-10-28T22:26:57.927872+00:00",
+      "at": "2026-10-29T03:08:23.487996+00:00",
       "code": null,
       "actor": "self",
       "action": "hr.review.results_listed",
@@ -194,7 +152,7 @@
       "rowCount": 3
     },
     {
-      "at": "2026-10-28T22:26:57.858976+00:00",
+      "at": "2026-10-29T03:08:23.412948+00:00",
       "code": null,
       "actor": "self",
       "action": "hr.payslip.listed",
@@ -204,7 +162,7 @@
       "rowCount": 0
     },
     {
-      "at": "2026-10-28T22:26:57.786057+00:00",
+      "at": "2026-10-29T03:08:23.308765+00:00",
       "code": null,
       "actor": "self",
       "action": "hr.work.viewed",
@@ -216,7 +174,7 @@
       "rowCount": 0
     },
     {
-      "at": "2026-10-28T22:26:57.760566+00:00",
+      "at": "2026-10-29T03:08:23.285043+00:00",
       "code": null,
       "actor": "self",
       "action": "hr.work.status_viewed",
@@ -228,7 +186,7 @@
       "rowCount": 1
     },
     {
-      "at": "2026-10-28T22:26:57.682733+00:00",
+      "at": "2026-10-29T03:08:23.210014+00:00",
       "code": null,
       "actor": "self",
       "action": "hr.work.status_viewed",
@@ -240,7 +198,7 @@
       "rowCount": 1
     },
     {
-      "at": "2026-10-28T22:25:41.354696+00:00",
+      "at": "2026-10-29T03:07:00.332926+00:00",
       "code": null,
       "actor": "회사",
       "action": "hr.review.submitted",
@@ -252,7 +210,7 @@
       "rowCount": 7
     },
     {
-      "at": "2026-10-28T22:25:41.345356+00:00",
+      "at": "2026-10-29T03:07:00.307913+00:00",
       "code": null,
       "actor": "self",
       "action": "hr.review.submitted",
@@ -264,43 +222,7 @@
       "rowCount": 7
     },
     {
-      "at": "2026-10-28T22:25:41.329353+00:00",
-      "code": null,
-      "actor": "회사",
-      "action": "hr.review.submitted",
-      "fields": [
-        "answers"
-      ],
-      "outcome": "allowed",
-      "purpose": null,
-      "rowCount": 7
-    },
-    {
-      "at": "2026-10-28T22:25:41.326221+00:00",
-      "code": null,
-      "actor": "self",
-      "action": "hr.review.submitted",
-      "fields": [
-        "answers"
-      ],
-      "outcome": "allowed",
-      "purpose": null,
-      "rowCount": 7
-    },
-    {
-      "at": "2026-10-28T22:25:41.317173+00:00",
-      "code": null,
-      "actor": "회사",
-      "action": "hr.review.submitted",
-      "fields": [
-        "answers"
-      ],
-      "outcome": "allowed",
-      "purpose": null,
-      "rowCount": 7
-    },
-    {
-      "at": "2026-10-28T22:25:38.7523+00:00",
+      "at": "2026-10-29T03:06:57.386929+00:00",
       "code": null,
       "actor": "회사",
       "action": "hr.account.linked",
@@ -312,7 +234,7 @@
       "rowCount": 1
     },
     {
-      "at": "2026-10-28T22:25:38.75161+00:00",
+      "at": "2026-10-29T03:06:57.385803+00:00",
       "code": null,
       "actor": "회사",
       "action": "hr.person.created",
@@ -332,9 +254,9 @@
   ],
   "contracts": [],
   "workEvents": [],
-  "generatedAt": "2026-10-28T22:26:58.407659+00:00",
+  "generatedAt": "2026-10-29T03:08:24.026403+00:00",
   "certificates": [],
-  "accessLogTotal": 18,
+  "accessLogTotal": 15,
   "workCorrections": [],
   "accessLogTruncated": false
 }
