@@ -5,7 +5,20 @@
   const me = document.currentScript
   const base = me.dataset.base || ''
   const NOTICE = '미리보기에서는 저장되지 않습니다'
+  const QUERY_NOTICE = '미리보기에서는 검색·필터·탭·정렬·쪽이 바뀌지 않습니다'
   const realFetch = window.fetch.bind(window)
+
+  // 정적 호스트는 디렉터리 주소에 끝 슬래시를 붙여 보낸다. 서버가 그린 주소(슬래시 없음)와 다르면 화면 코드가 경로를 다르게 읽어 하이드레이션이 어긋난다(동료 인정·공지·결재의 탭 줄이 사라진다).
+  if (location.pathname.length > 1 && location.pathname.endsWith('/')) history.replaceState(history.state, '', location.pathname.replace(/\/+$/, '') + location.search + location.hash)
+
+  // 인사 값이 보이는 화면은 확인 시간(재인증) 끝 시각이 사본을 만들 때 정해진다. 시계가 흐르면 곧 끝나 값이 지워지고 서버 새로 그리기가 되풀이되므로, 사본을 만든 시각에 시계를 고정한다.
+  if (me.dataset.frozenAt) {
+    const frozen = Date.parse(me.dataset.frozenAt)
+    window.Date = new Proxy(Date, {
+      construct: (target, args, newTarget) => Reflect.construct(target, args.length ? args : [frozen], newTarget),
+      get: (target, key, receiver) => (key === 'now' ? () => frozen : Reflect.get(target, key, receiver)),
+    })
+  }
 
   // 쿼리 사본(`…/__q/…/`)은 서버가 그린 주소(쿼리 있는 주소)로 주소창을 맞춘 뒤 하이드레이션한다. 주소가 다르면 화면 코드가 다른 값을 읽어 어긋난다.
   if (me.dataset.canonical) history.replaceState(history.state, '', base + me.dataset.canonical)
@@ -47,8 +60,8 @@
       setTimeout(() => location.reload(), 2400)
       return new Promise(() => {})
     }
-    // 화면 이동 때 받는 서버 컴포넌트 응답은 정적 호스트에 없다. 그대로 두면 Next가 일반 이동으로 바꾼다.
-    if (headers.get('rsc') === '1' || url.searchParams.has('_rsc')) return realFetch(input, init)
+    // 화면 이동(RSC) 요청은 정적 호스트에 없다. 네트워크를 타지 않고 바로 실패시키면 Next가 일반 이동으로 바꾼다(링크마다 하던 미리 받기가 화면 전체를 내려받지 않는다).
+    if (headers.get('rsc') === '1' || url.searchParams.has('_rsc')) return Promise.resolve(new Response(null, { status: 404 }))
     const path = url.pathname.startsWith(base) ? url.pathname.slice(base.length) : url.pathname
     if (path === '/api/members/search' && method === 'GET') {
       const q = (url.searchParams.get('q') ?? '').trim().toLowerCase()
@@ -225,6 +238,12 @@
         show('미리보기에서는 내려받을 수 없습니다')
         return
       }
+      // 홈페이지 관리의 API 주소(편집 화면의 "API" 보기 링크)는 사본에 없다. 그림(/site/api/media/file)만 담았다.
+      if (/\/site\/api\/(?!media\/file\/)/.test(raw.split('?')[0])) {
+        stop()
+        show('미리보기에서는 관리 API를 열 수 없습니다')
+        return
+      }
       const variant = variantHref(a)
       if (variant) {
         stop()
@@ -232,6 +251,13 @@
         return
       }
       const own = raw === base || raw.startsWith(`${base}/`)
+      // 같은 화면에서 쿼리만 바꾸는 링크(탭·정렬·쪽)는 정적 호스트가 쿼리를 구분하지 못해 첫 모습이 다시 열릴 뿐이다. 이동하지 않고 이유를 알린다.
+      const samePage = raw.startsWith('?') || (raw.startsWith('/') && !raw.startsWith('//') && raw.split('#')[0].includes('?') && (own ? raw : base + raw).split(/[?#]/)[0].replace(/\/+$/, '') === location.pathname.replace(/\/+$/, ''))
+      if (samePage) {
+        stop()
+        show(QUERY_NOTICE)
+        return
+      }
       if (!raw.startsWith('/') || raw.startsWith('//')) return
       if (isMissing(raw)) {
         stop()
@@ -241,6 +267,21 @@
       if (own) return
       stop()
       location.assign(base + raw)
+    },
+    true,
+  )
+
+  // 서버가 처리하는 폼은 정적 호스트로 보내면 이 미리보기 밖(없는 주소·405)으로 나간다: 검색·필터(GET)와 승인·읽음 처리 같은 대체 경로(POST). 보내지 않고 안내만 띄운다.
+  // 서버 액션 폼(주소가 없거나 javascript:)은 화면 코드가 서버 액션 요청으로 처리하므로 위의 fetch가 받는다.
+  document.addEventListener(
+    'submit',
+    (event) => {
+      const form = event.target
+      const action = form?.getAttribute?.('action')
+      if (!action || action.startsWith('javascript:')) return
+      event.preventDefault()
+      event.stopImmediatePropagation()
+      show(String(form.getAttribute('method') || 'get').toLowerCase() === 'get' ? QUERY_NOTICE : NOTICE)
     },
     true,
   )
