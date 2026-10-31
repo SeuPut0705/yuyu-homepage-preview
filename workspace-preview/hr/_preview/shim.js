@@ -212,16 +212,15 @@
     const own = rel === base || rel.startsWith(`${base}/`) ? rel.slice(base.length) : rel
     return own !== '' && !own.startsWith('/messenger/files/') && !own.startsWith('/_next/') && !savedPages.has(own)
   }
-  // basePath가 없는 일반 링크(<a href="/site"> 등)는 이 미리보기 안의 주소로 바꾼다. 홈페이지 관리는 관리 화면 미리보기로 간다.
-  const site = me.dataset.site || ''
+  // basePath가 없는 일반 링크(<a href="/site"> 등)는 이 미리보기 안의 주소로 바꾼다. 홈페이지 관리(/site)도 같은 사본 안의 한 구역이다.
   document.addEventListener(
     'click',
     (event) => {
       const a = event.target instanceof Element ? event.target.closest('a[href]') : null
       if (!a || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey) return
       const raw = a.getAttribute('href') || ''
-      // 미리보기 첫 화면(역할 바꾸기)·관리 화면에서 업무 미리보기로 돌아가는 링크는 그대로 둔다.
-      if (raw === me.dataset.home || raw === me.dataset.work) return
+      // 미리보기 첫 화면(역할 바꾸기)으로 가는 링크는 그대로 둔다.
+      if (raw === me.dataset.home) return
       const stop = () => (event.preventDefault(), event.stopImmediatePropagation())
       if (DOWNLOAD.test(raw.split('?')[0])) {
         stop()
@@ -236,16 +235,9 @@
       }
       const own = raw === base || raw.startsWith(`${base}/`)
       if (!raw.startsWith('/') || raw.startsWith('//')) return
-      // 관리 화면 사본에서 /site 밖으로 나가는 링크(업무 시스템으로 돌아가기 등)는 업무 미리보기 첫 화면으로, 업무 화면에서 /site로 가는 링크는 관리 화면 미리보기로 간다.
-      const toSite = raw === '/site' || raw.startsWith('/site/')
-      if (!own && (me.dataset.mode === 'admin' ? !toSite : toSite)) {
-        stop()
-        location.assign(me.dataset.mode === 'admin' ? me.dataset.work || site : site)
-        return
-      }
       if (isMissing(raw)) {
         stop()
-        show(me.dataset.mode === 'admin' ? '미리보기에 담지 않은 화면입니다' : '이 역할로는 열 수 없는 화면입니다. 오른쪽 아래 "역할 바꾸기"로 다른 역할을 고르세요')
+        show('이 역할로는 열 수 없는 화면입니다. 오른쪽 아래 "역할 바꾸기"로 다른 역할을 고르세요')
         return
       }
       if (own) return
