@@ -71,7 +71,9 @@
     if (path.startsWith('/api/push/subscriptions') && method === 'GET') return Promise.resolve(json({ subscriptions: [] }))
     // 메신저 알림 목록은 5초마다 다시 받는다. 서버가 없으니 화면에 이미 있는 목록을 그대로 둔다(응답이 실패면 화면이 바꾸지 않는다).
     if (path === '/messenger/notices' && method === 'GET') return Promise.resolve(json({ error: 'preview' }, 503))
-    if (path.startsWith('/api/') || path.startsWith('/site/api/') || path.startsWith('/messenger/') || method !== 'GET') {
+    // 사본은 base 밑에만 있다. 그 밖으로 가는 앱 요청(API·배지 새로 받기 등)과 쓰기는 정적 호스트에 없으니 네트워크 없이 실패시킨다(화면은 이미 그린 값을 둔다).
+    const appRequest = path.startsWith('/api/') || path.startsWith('/site/api/') || path.startsWith('/messenger/')
+    if (!url.pathname.startsWith(`${base}/`) || appRequest || method !== 'GET') {
       if (method !== 'GET') show()
       return Promise.resolve(json({ error: 'preview' }, 503))
     }
